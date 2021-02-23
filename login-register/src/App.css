@@ -1,9 +1,8 @@
 /* Reset styles */
 body {
-  background-image: url(bg.jpg);
-  background-position: center;
+  background-image: url(bg.png);
+  background-position: top;
   background-size: cover;
-  background-clip: inherit;
 }
 html,body, body * {
   
@@ -31,7 +30,7 @@ html,body, body * {
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   color: #ffffff;
-  background: linear-gradient(180deg, rgba(222,131,32,1) 1%, rgba(213,158,99,1) 39%, rgba(245,245,245,1) 100%);
+  background: linear-gradient(180deg, rgba(143,210,105,1) 0%, rgba(90,181,104,1) 50%, rgba(143,210,105,1) 100%);
 }
 
 /* nav-buttons */
@@ -68,7 +67,9 @@ button:active {
   padding-top: 24px;
   border-top: solid 1px rgba(255, 255, 255, .3);
 }
-
+.forgot-panel a{
+  color: black;
+}
 /* form styling */
 .form-group input {
   width: 100%;
@@ -81,6 +82,10 @@ button:active {
 }
 .form-group label {
   text-transform: uppercase;
+  color: black;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px white;
+    font-weight: 700;
 }
 input.submit {
   font-weight: 700;
